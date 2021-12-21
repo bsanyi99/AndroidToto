@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 public class SmsUtils {
     public void sendSMS(Context context, String msg){
-        String phoneNumber = "123456";
+        String phoneNumber = "1756";
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage(phoneNumber, null, msg, null, null);
 
