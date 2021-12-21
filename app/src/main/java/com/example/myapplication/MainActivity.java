@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://bet.szerencsejatek.hu/utmutato/sms-lotto-fogadas/sms-lotto-fogadas-reszletes-utmutato"));
+                        Uri.parse("https://bet.szerencsejatek.hu/utmutato/sms-lotto-fogadas/sms-lotto-fogadas-reszletes-utmutato?bet-desktop=1"));
                 startActivity(intent);
             }
         });
