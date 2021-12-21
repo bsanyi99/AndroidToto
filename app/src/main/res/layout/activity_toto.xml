@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Toto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/textGrid"
+                android:text="@string/grid_layout"
+                android:textSize="34sp"
+                android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:rowCount="15"
+            tools:context=".MainActivity">
+
+            <RadioButton
+                android:id="@+id/rB12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="3" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/meccsek"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill_horizontal|left"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/_o1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/x"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/o_2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_10"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_11"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="13"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_13"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="14"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/_13_1"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rB21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB2X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="11"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="13"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="14"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB3X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB4X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB5X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB6X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB7X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB8X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB9X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB10X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB11X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="11"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB12X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB13X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="13"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB14X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="14"
+                android:layout_column="2" />
+
+            <RadioButton
+                android:id="@+id/rB32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="11"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="13"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="14"
+                android:layout_column="3" />
+
+            <RadioButton
+                android:id="@+id/rB11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1" />
+
+            <RadioButton
+                android:id="@+id/rB1X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSmsSend"
+            android:text="Küldés SMS-ben"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</ScrollView>

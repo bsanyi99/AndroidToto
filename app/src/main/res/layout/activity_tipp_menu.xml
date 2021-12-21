@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:rowCount="2"
+    tools:context=".tippMenuActivity">
+
+
+    <Button
+        android:id="@+id/randomTotoButton"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="onClickRandom"
+        android:text="@string/random_tippel_s"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/keziTippButton"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="onClickKeziTipp"
+        android:text="@string/k_zi_tippel_s"
+        android:textSize="24sp" />
+
+</GridLayout>
